@@ -7,8 +7,8 @@ public class client {
 	public static void main(String[] args)
 	{
 		MMBankFactory a= new MMBankFactory();
-		a.getNewSavingAccount(111, "name", 4000, true);
-		a.getNewCurrentAccount(222, "name2", 8000, 50000);
+		a.getNewSavingAccount(111, "ASHA1", 4000, true);
+		a.getNewCurrentAccount(222, "ASHA2", 8000, 50000);
 		
 		
 		MMSavingAcc b=new MMSavingAcc();

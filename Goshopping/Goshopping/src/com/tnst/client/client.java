@@ -6,8 +6,8 @@ public class client {
 	public static void main(String[] args) {
 	 
 		GSShopFactory a= new GSShopFactory();
-		a.getNewPrimeAccount(120, "suhas", 1000, true);
-		a.getNewNormalAccount(111, "suhas1", 1000, 50);
+		a.getNewPrimeAccount(120, "ASHA", 1000, true);
+		a.getNewNormalAccount(111, "ASHA1", 1000, 50);
 		
 	
 		GSPrimeAcc b= new GSPrimeAcc();
