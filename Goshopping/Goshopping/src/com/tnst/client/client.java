@@ -10,13 +10,13 @@ public class client {
 		a.getNewNormalAccount(111, "ASHA1", 1000, 50);
 		
 	
-		GSPrimeAcc b= new GSPrimeAcc();
-		b.getClass();
-		b.getAccNo();
-		b.getAccNm();
-		b.getCharge();
-		b.bookProduct(1000);
-		b.toString();
+		GSPrimeAcc gps= new GSPrimeAcc();
+		gps.getClass();
+		gps.getAccNo();
+		gps.getAccNm();
+		gps.getCharge();
+		gps.bookProduct(1000);
+		gps.toString();
 		
 		GSNormalAcc c= new GSNormalAcc();
 		c.getClass();
